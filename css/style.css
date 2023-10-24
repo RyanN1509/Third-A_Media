@@ -1,75 +1,148 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain).
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* Restore styling for lists and text formatting  */
-ul {
-    list-style-type: disc;
-    list-style-position: outside;
-    padding-left: 1rem;
-}
-ol {
-    list-style-type: decimal;
-    list-style-position: outside;
-    padding-left: 1rem;
-}
-ul ul, ol ul {
-    list-style-type: circle;
-}
-ol ol, ul ol {
-    list-style-type: lower-latin;
-}
-strong, b {
-	font-weight: bold;
-}
-em, i {
-    font-style: italic;
-}
-
 /* your custom styling */
+/* .row{
+    margin-bottom: 3rem;
+} */
 
+header{
+    padding-top: 1rem;
+}
+
+.my-hero{
+    background-image: url(../img/fc4.webp);
+    background-position: center;
+    background-position: cover;
+    text-align: bottom;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+h1{
+    padding-top: 1rem;
+    background-color: #1a2163;
+    color: #faebd7;
+    text-align: left;
+    font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+    padding-left: .5rem;
+    border-bottom: solid 8px #faedb787;
+    border-radius: 15px;
+}
+
+h2{
+    padding-top: 1rem;
+    background-color: #8b0000;
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+    padding-left: .5rem;
+    border-bottom: solid 8px #18344a87;
+    border-radius: 15px;
+}
+
+h3{
+    background-color: #8b0000;
+    color: #ffffff;
+    text-align: left;
+    padding-left: .5rem;
+    font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-bottom: solid 6px #18344a87;
+    border-radius: 15px;
+}
+
+h4{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    padding-left: .5rem;
+    font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+main{
+    /* background-color: #615d5c; */
+    background: -webkit-linear-gradient(-45deg, #697072 3%,#727f82 13%,#767f84 40%,#5f6268 67%,#28343b 99%); /* Chrome10-25,Safari5.1-6 */
+    margin-top: 6rem;
+    color: #faebd7;
+    font-size: 100%;
+    font-family: 'Abhaya Libre', Arial, Helvetica, sans-serif;
+}
+
+aside{
+    background-color: #7d7968aa;
+    box-shadow: 5px 5px 5px #5f6268;
+    border-radius: 15px;
+    margin: .5rem 0rem .5rem 0rem;
+
+}
+
+footer{
+    background-color: #08485E;
+    color: #ffffff;
+}
+
+/* table{
+	border: solid #8b0000 2px;
+	border-collapse: separate;
+	border-spacing: 6px;
+	background-color: #1a2163;
+} */
+
+/* tr:nth-child(even){
+	background-color: #5f6268;
+} */
+
+/* td{
+	border: solid #8b0000 2px;
+	padding: .25rem .5rem;
+	text-align: center;
+	font-size: 1rem;
+	color: #faebd7
+} */
+
+/* th{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.25rem;
+	color: #faebd7
+} */
+
+/* .small{
+    color: #8b0000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: .25rem;
+} */
+
+/* .davenport{
+    background-color: #000000aa;
+    color: #ffffff;
+    font-family: 'Abhaya Libre', Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    border-radius: 15px;
+} */
+
+a{
+    color: #1a2163;
+}
+a:visited{
+    color: #800080;
+}
+a:hover{
+    color: #ffffff;
+}
+a:focus{
+    color: #add8e6;
+}
+a:active{
+    color: #61618b;
+}
+
+
+
+@media screen and (min-width:900px){
+    main{
+        font-size: 120%;
+    }
+
+}
 
