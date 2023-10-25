@@ -8,7 +8,7 @@ header{
 }
 
 .my-hero{
-    background-image: url(../img/fc4.webp);
+    background-image: url(../img/webdev.png);
     background-position: center;
     background-position: cover;
     text-align: bottom;
@@ -17,19 +17,19 @@ header{
 
 h1{
     padding-top: 1rem;
-    background-color: #1a2163;
+    background-color: #08485E;
     color: #faebd7;
     text-align: left;
     font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
     padding-left: .5rem;
-    border-bottom: solid 8px #faedb787;
+    border-bottom: solid 5px #FA990087;
     border-radius: 15px;
 }
 
 h2{
     padding-top: 1rem;
-    background-color: #8b0000;
-    color: #ffffff;
+    background-color: #8D64BC;
+    color: #faebd7;
     text-align: left;
     font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
     padding-left: .5rem;
@@ -38,8 +38,8 @@ h2{
 }
 
 h3{
-    background-color: #8b0000;
-    color: #ffffff;
+    background-color: #8D64BC;
+    color: #faebd7;
     text-align: left;
     padding-left: .5rem;
     font-family: 'Black Ops One', Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ h3{
 
 h4{
     background-color: #000000;
-    color: #ffffff;
+    color: #faebd7;
     font-size: 1.2rem;
     margin-top: .5rem;
     padding-left: .5rem;
@@ -58,7 +58,7 @@ h4{
     border-radius: 15px;
 }
 
-main{
+body{
     /* background-color: #615d5c; */
     background: -webkit-linear-gradient(-45deg, #697072 3%,#727f82 13%,#767f84 40%,#5f6268 67%,#28343b 99%); /* Chrome10-25,Safari5.1-6 */
     margin-top: 6rem;
@@ -68,7 +68,7 @@ main{
 }
 
 aside{
-    background-color: #7d7968aa;
+    background-color: #fa9a0059;
     box-shadow: 5px 5px 5px #5f6268;
     border-radius: 15px;
     margin: .5rem 0rem .5rem 0rem;
